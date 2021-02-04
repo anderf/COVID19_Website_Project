@@ -1,0 +1,280 @@
+html {
+	background-repeat: no-repeat;
+	background-size: 1700px;
+	background-position: center;
+	background-color: hsl(0, 1%, 99%);
+}
+
+
+header {
+	padding: 15px;
+	text-align: center;
+	background-image: linear-gradient(to bottom right, red, orange, yellow, white);
+	color: rgb(0, 0, 8);
+	font-size: 20px;
+	border-bottom: gray;
+	border-bottom-style: solid;
+}
+
+header h2 {
+	margin-left: 1cm;
+	font-size: 40px;
+}
+
+.box {
+	background-color: transparent;
+	width: 98%;
+	padding: 0.1cm;
+}
+header a {
+	font-size: 40px;
+	margin-left: 1cm;
+	font-style: Arial;
+	color: darkblue;
+}
+
+header a:link {
+  text-decoration: none; 
+}
+header a:visited {
+  text-decoration: none;
+  
+}
+header a:hover {
+  text-decoration: none;
+  color: lightblue;
+}
+
+header a:active {
+  text-decoration: none;
+  color: aqua;
+}
+#panel{
+	display: none;
+}
+
+footer {
+	font-size: 15;
+	text-align: center;
+	color: lightblue;
+	border-top: gray;
+	border-top-style: solid;
+	background-image: linear-gradient(to bottom right, white, yellow, orange, red);
+	padding-top: 3%;
+	padding-bottom: 4%;
+}
+
+.content {
+	margin-right: 1cm;
+	text-align: justify;
+}
+
+.content h2{
+	font-size: 20px;
+	margin-left: 1cm;
+	font-style: Arial;
+	margin-bottom: 1cm;
+	color: rgb(0, 0, 8);
+}
+
+.content h3{
+	font-size: 30px;
+	margin-left: 1cm;
+	font-style: Arial;
+	margin-bottom: 1cm;
+	color: rgb(0, 0, 8);
+}
+
+.content img{
+	margin-right: 2cm;
+	margin-left: 1cm;
+	margin-bottom: 1cm;
+}
+
+.content ul {
+	margin-left: 2cm;
+	font-style: Arial;
+	font-size: 20px;
+	color: rgb(0, 0, 8);
+}
+
+.content ul li a:link{
+	text-decoration: none;
+	color: darkblue;
+}
+
+.content ul li a:hover{
+	color: rgb(31, 105, 129);
+}
+.content ul li a:visited{
+	text-decoration: none;
+	color: rgb(55, 55, 182);
+}
+
+.content ol {
+	margin-left: 2cm;
+	font-style: Arial;
+	font-size: 20px;
+	color: rgb(0, 0, 8);
+}
+
+input[type=submit] {
+	padding: 15px 32px;
+	font-size:16px;
+	font-weight:bold;
+   background:#ccc; 
+   border:0 none;
+   cursor:pointer;
+   -webkit-border-radius: 5px;
+   border-radius: 10px; 
+}
+input[type=search] {
+
+ width: 460px;
+
+ box-sizing: border-box;
+ 
+ border: 2px solid #ccc;
+
+ border-radius: 10px; 
+ font-size: 16px;
+ background-color: white;
+ 
+ 
+ background-position: 10px 10px; 
+ background-repeat: no-repeat;
+ padding: 12px 20px 12px 40px;
+ transition: width 0.4s ease-in-out;
+}
+
+
+
+.pagination {
+
+ display: inline-block;
+ width: 100%;
+
+}
+
+.pagination a {
+ color: black;
+ float: left;
+ padding: 8px 16px;
+ text-decoration: none;
+ transition: background-color .3s;
+ border: 1px solid #ddd;
+ font-size: 18px;
+
+}
+
+.pagination a.active {
+
+ background-color: orange;
+ color: white;
+ border: 1px solid orange;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+#dd{
+padding-left:30px;
+}
+.line-content{
+margin-left:80px;0
+
+}
+
+#cap {
+font-size:26px;
+color:darkblue;
+
+}
+
+#pagin li {
+  display: inline-block;
+}
+#sear{
+font-size:30px;
+}
+
+table a {
+	font-size: 30px;
+	font-style: Arial;
+	color: darkblue;
+}
+
+table a:link {
+  text-decoration: none;
+  
+}
+table a:visited {
+  text-decoration: none;
+  color: aqua;
+  
+}
+table a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+table a:active {
+  text-decoration: none;
+}
+
+.src {
+	margin-left:2cm;
+	margin-top: 2cm;
+	max-width: 100%;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-left: 2cm;
+    text-align: center;
+	box-sizing:border-box;
+	width:85%;
+	max-width:600px;
+	padding:30px 40px;
+	border-radius:8px;
+	
+}
+
+.form label{
+	display:block;
+	text-align:left;
+	color:#333;
+	text-transform:uppercase;
+	font-size:14px;
+}
+	
+.submit input{
+width:30%;
+font-size: 14px;
+}
+
+#slideshow1{
+	text-align:center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	
+}
+
+#image1{
+	width: 1000px;
+	height: 200px;
+}
+#image2{
+	width: 1000px;
+	height: 200px;
+}
+#image3{
+	width: 1000px;
+	height: 200px;
+}
+#image4{
+	width: 1000px;
+	height: 200px;
+}

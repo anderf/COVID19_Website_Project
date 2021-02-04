@@ -1,0 +1,78 @@
+<!--- Group 2: Anderson Silva Ferreira C0775487 -  Jarmanjit kaur C0768693 - Micheal Honey Namitha C0769876 - Neena Anilkumar C0768707  - Nithusha Singh C0772218 -->
+<!--- 8/26/2020 -->
+<!--- Final Project - Web Technologies II - Search Page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="finalProjectScript.js"></script> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
+<title>COVID-19 - Contact Us</title>
+</head>
+<body>
+	<header>
+		<div class="box" id="flipHd">
+			<div class="box" id="flipHd">
+			<div id="slideshow1">
+				<img id="image1" src="/Volumes/Backup/Lambton/Term_2/Web Technologies 2/COVID19 Project/c-images/staySafe.png" />
+    			<img id="image2" src="/Volumes/Backup/Lambton/Term_2/Web Technologies 2/COVID19 Project/c-images/mask_use.jpeg" />
+    			<img id="image3" src="/Volumes/Backup/Lambton/Term_2/Web Technologies 2/COVID19 Project/c-images/washhands.png" />
+    			<img id="image4" src="/Volumes/Backup/Lambton/Term_2/Web Technologies 2/COVID19 Project/c-images/socialDistance.jpg" />
+		</div>
+            <p> Click to see/hide the menu bar </p>
+		</div>
+		<div id="panel">
+		    <h2>Let's inform about that!</h2>
+		    <div class="box">
+			    <a href="COVID19.html", style="font-size:20px"><b>Home Page</b></a>
+			    <a href="Prevention Tips.html", style="font-size:20px"><b>Prevention Tips</b></a>
+			    <a href="About us.html", style="font-size:20px"><b>About Us</b></a>
+			    <a href="Contact us.html", style="font-size:20px"><b>Contact Us</b></a>
+			    <a href="Search.html", style="font-size:20px"><b>Search</b></a>
+		    </div>
+        </div>
+	</header>
+
+	<div class="content">
+		<div class='wrapper'>
+    		<h2><b>Contact us!!!</b></h2>
+  
+    		<form id="myform" onsubmit="return validation();">
+      		<div class="input_field">
+          		<input type="text" placeholder="FirstName*" id="fname">
+      		</div>
+      		<div class="input_field">
+          		<input type="text" placeholder="LastName*" id="lname">
+      		</div>
+      		<div class="input_field">
+         		<input type="text" placeholder="Phone* (only numbers)" id="phone">
+      		</div>
+      		<div class="input_field">
+          		<input type="text" placeholder="Email*" id="emailAddress">
+      		</div>
+	
+			
+      		<div class="input_field">
+          		<textarea placeholder="Message" id="message"></textarea>
+      		</div>
+      		<div class="btn">
+          		<input type="submit" value="submit">
+      		</div>
+    		</form>
+    		<div id="error_message"></div>
+		</div>	
+
+	 </div>
+
+	<footer>
+		Lambton College<br>
+		Group 2
+	</footer>
+
+</body>
+	
+</html>

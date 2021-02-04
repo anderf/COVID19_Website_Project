@@ -1,0 +1,109 @@
+	<!--- Group 2: Anderson Silva Ferreira C0775487 -  Jarmanjit kaur C0768693 - Micheal Honey Namitha C0769876 - Neena Anilkumar C0768707  - Nithusha Singh C0772218 -->
+<!--- 8/26/2020 -->
+<!--- Final Project - Web Technologies II - Search Page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="finalProjectScript.js"></script> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="corner.js"></script>
+<title>COVID-19 - Home Page</title>
+</head>
+<body>
+	<header>
+		<div class="box" id="flipHd">
+			<div class="box" id="flipHd">
+			<div id="slideshow1">
+				<img id="image1" src="/Volumes/Backup/Lambton/Term_2/Web Technologies 2/COVID19 Project/c-images/staySafe.png" />
+    			<img id="image2" src="/Volumes/Backup/Lambton/Term_2/Web Technologies 2/COVID19 Project/c-images/mask_use.jpeg" />
+    			<img id="image3" src="/Volumes/Backup/Lambton/Term_2/Web Technologies 2/COVID19 Project/c-images/washhands.png" />
+    			<img id="image4" src="/Volumes/Backup/Lambton/Term_2/Web Technologies 2/COVID19 Project/c-images/socialDistance.jpg" />
+			</div>
+            <p> Click to see/hide the menu bar </p>
+		</div>
+        <div id="panel">
+		    <h2>Let's inform about that!</h2>
+		    <div class="box">
+			    <a href="COVID19.html", style="font-size:20px"><b>Home Page</b></a>
+			    <a href="Prevention Tips.html", style="font-size:20px"><b>Prevention Tips</b></a>
+			    <a href="About us.html", style="font-size:20px"><b>About Us</b></a>
+			    <a href="Contact us.html", style="font-size:20px"><b>Contact Us</b></a>
+			    <a href="Search.html", style="font-size:20px"><b>Search</b></a>
+		    </div>
+        </div>
+	</header>
+
+	<div class="content">
+
+		<img src="/Volumes/Backup/Lambton/Term_2/Web Technologies 2/COVID19 Project/c-images/COVID19.jpg" alt="coronavirus">
+		<ul>
+			<li style="font-size: 35px;"><b>What is COVID-19? <button id="fdInP1">Show answer</button> <button id="fdOutP1">Hide answer</button></li> 
+            
+            
+		</ul>
+		
+        <div id="wcov">
+		    <h2>COVID-19 is a new type of coronavirus that has not been previously identified in humans. According to World Health Organization (WHO), 
+			Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as 
+			Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV). Coronaviruses are transmitted between animals and people. </h2>	
+		    <h2>On 30 January 2020, the WHO Director-General declared the COVID-19 outbreak a public health emergency of international concern. In 11 March 2020 the WHO recognised it 
+			as a pandemic because more than 189,000 cases of the disease have been reported in over 160 countries and territories, 
+			resulting in more than 7,500 deaths and around 80,000 recoveries.</h2>
+		    <ul>
+        </div>
+			<li style="font-size: 35px;"><b>How the COVID-19 is transmitted? <button id="fdInP2">Show answer</button> <button id="fdOutP2">Hide answer</button></li>
+		</ul>
+        <div id="htrn">
+		    <h2>The virus is transmitted primarily between people in a similar manner to influenza, via respiratory droplets from coughing, 
+			sneezing or exhalation including speaking. It is considered to be most contagious when those infected appear symptomatic,
+			although transmission is still possible if those infected appear asymptomatic.</h2>	
+		    <h2>The time between exposure and symptom onset is typically five days, but may range from two to fourteen days. Currently, 
+			there is no vaccine or specific antiviral treatment; treatment efforts consist of symptom alleviation and supportive therapy. </h2>
+        </div>
+        
+		<ul>
+			<li style="font-size: 35px;"><b>Symptoms: <button id="fdInP3">Show answer</button> <button id="fdOutP3">Hide answer</button></li>
+		</ul>
+		
+        <div id="symp">
+            <img id="symImg"src="Symptoms.png" alt="Symptoms of coronavirus">
+		    <h2>Symptoms of COVID-19 are non-specific and those infected may either be asymptomatic or develop flu like symptoms such as: </h2>
+		    <ul>
+			    <li>Fever</li>
+			    <li>Dry Cough</li>
+			    <li>Fatigue</li>
+			    <li>Shortness of breath</li>
+		</ul>
+        </div>
+		<ul>
+			<li style="font-size: 35px;"><b>Important Links:</li>
+		</ul>
+			<center>
+		    <div class="slider">
+			    	<a id="mylink" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"><img id='myimage' src='/Volumes/Backup/Lambton/Term_2/Web Technologies 2/COVID19 Project/c-images/WHO_logo.jpg'/></a>
+		    	</div>
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<input id="prevButton" type="button" onclick="changeSlide('previous')" value="Previous">
+				<input id="nextButton" type="button" onclick="changeSlide('next')" value="Next">
+			</div>
+			</center>
+
+</div>
+
+	</div>
+
+<br><br><br><br>
+
+	<footer>
+		Lambton College<br>
+		Group 2
+	</footer>
+
+</body>
+	
+</html>
